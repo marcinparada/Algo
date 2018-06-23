@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e51c851-7c14-46de-a16d-f9b0865fac6c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Niedziela1/AplikacjaSortowanie/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Niedziela1/AplikacjaSortowanie/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Niedziela1/AplikacjaSortowanie/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Niedziela1/AplikacjaSortowanie/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Niedziela1/AplikacjaSortowanie/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Niedziela1/PracaDomowa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Niedziela1/Zadanka/DzielenieKwadratu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Niedziela1/Zadanka/LosowaLiczba.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Sobota2/Kopiec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/strumienie/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rozgrzewka/SortowanieBabelkowe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rozgrzewka/SortowanieBabelkowe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rozgrzewka/Fibonacciego.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rozgrzewka/Fibonacciego.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rozgrzewka/SortowanieBabelkowe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rozgrzewka/SortowanieBabelkowe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rozgrzewka/potegowanie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rozgrzewka/potegowanie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rozgrzewka/zad1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rozgrzewka/zad1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rozgrzewka/zad2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rozgrzewka/zad2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wisielec.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Wisielec.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sobota2/Wisielec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="288">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/strumienie/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,6 +62,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="branch1" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -96,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Sobota2/wieze2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sobota2/WiezeHanoi.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sobota2/Wisielec.java" />
+        <option value="$PROJECT_DIR$/src/test/java/strumienie/Main.java" />
       </list>
     </option>
   </component>
@@ -147,39 +149,22 @@
               <item name="Zajecia1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Zajecia1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Zajecia1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Zajecia1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Zajecia1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Zajecia1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Niedziela1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Zajecia1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zajecia1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Niedziela1" type="462c0819:PsiDirectoryNode" />
-              <item name="PracaDomowa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Zajecia1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zajecia1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Sobota2" type="462c0819:PsiDirectoryNode" />
+              <item name="strumienie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,6 +179,9 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -208,7 +196,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WiezeHanoi">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strumienie.Main" />
+      <module name="Zajecia1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strumienie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="WiezeHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sobota2.WiezeHanoi" />
       <module name="Zajecia1" />
@@ -244,17 +243,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="działaniaNaLiczbach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sobota2.działaniaNaLiczbach" />
-      <module name="Zajecia1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sobota2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="wieze2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sobota2.wieze2" />
@@ -306,19 +294,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.działaniaNaLiczbach" />
       <item itemvalue="Application.Wisielec" />
       <item itemvalue="Application.WisielecText" />
       <item itemvalue="Application.WiezeHanoi" />
       <item itemvalue="Application.wieze2" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WiezeHanoi" />
         <item itemvalue="Application.wieze2" />
         <item itemvalue="Application.WisielecText" />
         <item itemvalue="Application.Wisielec" />
-        <item itemvalue="Application.działaniaNaLiczbach" />
       </list>
     </recent_temporary>
   </component>
@@ -344,15 +332,38 @@
       <workItem from="1529428513329" duration="18178000" />
       <workItem from="1529601841331" duration="3893000" />
       <workItem from="1529685954205" duration="9160000" />
-      <workItem from="1529738060873" duration="1458000" />
+      <workItem from="1529738060873" duration="3585000" />
     </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1529745065687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529745065688</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test1">
+      <created>1529745194537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529745194537</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test1">
+      <created>1529745444133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529745444133</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86751000" />
+    <option name="totallyTimeSpent" value="88878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="23" width="1390" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -363,8 +374,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -416,6 +427,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -444,13 +459,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Niedziela1/AplikacjaSortowanie/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Niedziela1/AplikacjaSortowanie/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -812,13 +820,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Sobota2/Wisielec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="288">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/strumienie/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Zajecia1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
