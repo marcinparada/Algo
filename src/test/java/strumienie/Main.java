@@ -8,6 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -21,33 +22,54 @@ import java.util.stream.Stream;
 
 public class Main {
 
+    public static Path file = Paths.get("/Users/marcinparada/Desktop/slowa.txt");
+    public static Charset charset = Charset.forName("UTF-8");
     public static ArrayList<String> lista = new ArrayList<>();
+    public static ArrayList<String> lista2 = new ArrayList<>();
 
     public static void main(String[] args) {
 
 
         tworzenieListy();
-
-        for (String l : lista) {
-            if (lista.indexOf(l) % 2 == 0){
-
-            }
-        }
+        slowaDluzszeNiz13(lista);
+        System.out.println(lista.size());
+        System.out.println(lista2.size());
 
 
     }
 
     private static ArrayList<String> tworzenieListy() {
-        Path file = Paths.get("/Users/marcinparada/Desktop/slowa.txt");
-        Charset charset = Charset.forName("UTF-8");
-        try (BufferedReader reader = Files.newBufferedReader(file, charset)) {
-            String line = null;
-            while ((line = reader.readLine()) != null) {
-                lista.add(line);
-            }
+        try (BufferedReader br = Files.newBufferedReader(file, charset)) {
+            br.lines().forEach(lista::add);
         } catch (IOException e) {
-            System.err.format("IOException: %s%n", e);
+            e.printStackTrace();
         }
+
         return lista;
     }
+
+    private static ArrayList<String> slowaDluzszeNiz13(ArrayList<String> lista) {
+
+        for (String l : lista) {
+            if (l.length() > 13) {
+                lista2.add(l);
+            }else{
+                continue;
+            }
+        }return lista2;
+    }
+
+//    private static ArrayList<String> zaczynajaceSieOdLiteryA(){
+//        ArrayList<String> listaOdA = new ArrayList<>();
+//        try (BufferedReader br = Files.newBufferedReader(file, charset)){
+//            if (){
+//                br.lines().forEach(listaOdA::add);
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        return listaOdA;
+//
+//    }
+
 }
